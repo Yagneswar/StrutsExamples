@@ -1,0 +1,3 @@
+<%@ taglib uri="/struts-tags" prefix="s" %>
+Sorry,,,there are No Record ,
+<s:include value="register-select.jsp"></s:include>

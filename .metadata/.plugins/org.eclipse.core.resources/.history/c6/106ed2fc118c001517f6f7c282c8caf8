@@ -1,0 +1,13 @@
+<%@ taglib uri="/struts-tags" prefix="s" %>
+<script type="text/javascript">
+
+</script>
+
+<s:form action="register">
+<s:textfield name="ename" label="UserName"></s:textfield>
+<s:password name="password" label="Password"></s:password>
+<s:textfield name="email" label="Email"></s:textfield>
+<s:radio list="{'Male','Female'}" name="gender"></s:radio>
+<s:select list="{'India','Srilanka','Bangladesh'}" name="country" label="Country"></s:select>
+<s:submit value="Register"></s:submit>
+</s:form>

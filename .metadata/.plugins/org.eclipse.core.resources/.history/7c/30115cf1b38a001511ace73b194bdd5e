@@ -1,0 +1,28 @@
+<%@ taglib uri="/struts-tags" prefix="s" %>
+<script type="text/javascript">
+function myval(f)
+{
+	a=f.ename.value
+	b=f.password.value
+	c=f.email.value
+	d=f.gender.value
+	e=f.country.value
+	var p=c.indexOf("@");
+	var q=c.indexOf(".");
+	if(a.lenght==0||b.length==0||((p.length==-1)||(q.length==-1))||d.length==0||e.length==0)
+		{
+		alert("no field should be blank");
+		return false;
+		}
+	}
+	
+
+</script>
+<s:form name="f" action="register" onsubmit="return myval(this)">
+<s:textfield name="ename" label="EmployeeName"></s:textfield>
+<s:password name="password" label="Password"></s:password>
+<s:textfield name="email" label="Email"></s:textfield>
+<s:radio list="{'male','female'}" name="gender"></s:radio>
+<s:select list="{'india','england','bangladesh'}" name="country" label="Country"></s:select>
+<s:submit value="register"></s:submit>
+</s:form>

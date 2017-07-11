@@ -1,0 +1,10 @@
+package com.tqmcs;
+
+public class UpdateDao {
+	public static int add(RegisterAction a)
+	{
+		int status=0;
+		
+	}
+
+}

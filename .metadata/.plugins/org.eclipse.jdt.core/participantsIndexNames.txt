@@ -1,0 +1,11 @@
+INDEX VERSION 1.127
+F:\StrutsApplication\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1870702125.index
+\struts3app\src
+F:\StrutsApplication\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3939651794.index
+\StrutsApp3\src
+F:\StrutsApplication\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1391986642.index
+\StrusApp2\src
+F:\StrutsApplication\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\115985997.index
+\StrutsApp1\src
+F:\StrutsApplication\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2655697245.index
+\StrutsApp4\src

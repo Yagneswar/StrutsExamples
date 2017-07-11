@@ -1,0 +1,9 @@
+package com.tqmcs;
+
+public class RegisterAction
+{
+
+	private String ename,password,email,gender,country;
+	
+	
+}

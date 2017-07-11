@@ -1,0 +1,6 @@
+<%@ taglib uri="/struts-tags" prefix="s" %>
+
+<s:form action="register">
+
+
+</s:form>

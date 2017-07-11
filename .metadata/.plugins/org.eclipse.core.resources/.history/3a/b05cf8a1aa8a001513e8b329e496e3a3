@@ -1,0 +1,9 @@
+package com.tqmcs;
+
+public class RegisterDao {
+	
+	public static int add(RegisterAction r)
+	{
+		
+	}
+}

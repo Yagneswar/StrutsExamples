@@ -1,0 +1,10 @@
+package com.tqmcs;
+
+public class RegisterDao
+{
+	public static int save(RegisterAction a)
+	{
+		
+	}
+
+}

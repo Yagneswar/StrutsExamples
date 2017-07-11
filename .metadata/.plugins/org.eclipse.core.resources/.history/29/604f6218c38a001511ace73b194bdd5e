@@ -1,0 +1,6 @@
+<%@ taglib uri="/struts-tags" prefix="s" %>
+<s:property value="ename"></s:property>
+<s:property value="password"></s:property>
+<s:property value="email"></s:property>
+<s:property value="gender"></s:property>
+<<s:property value="country"></s:property>

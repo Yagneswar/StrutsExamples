@@ -1,0 +1,6 @@
+<%@ taglib uri="/struts-tags" prefix="s" %>
+<s:form>
+<s:textfield name="name"></s:textfield>
+<s:submit value="search"></s:submit>
+
+</s:form>

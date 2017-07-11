@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+
+<package name="default" extends="struts-default">
+
+<action name="register" class="com.tqmcs.RegisterAction">
+<result name="success">/register-success.jsp</result>
+<result name="error">/register-error.jsp</result>
+</action>
+
+<action name="update" class="com.tqmcs.update.UpdateAction">
+<result name="update1">/update1-success.jsp</result>
+<result name="update2">/update1-error.jsp</result>
+</action>
+
+</package>
+</struts>    

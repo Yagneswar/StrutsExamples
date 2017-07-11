@@ -1,0 +1,10 @@
+INDEX VERSION 1.3+F:\StrutsApplication\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3782817663.index
+2132648668.index
+767317112.index
+367719466.index
+80028959.index
+54988918.index
+4108351202.index
+3950217577.index
+2515125663.index

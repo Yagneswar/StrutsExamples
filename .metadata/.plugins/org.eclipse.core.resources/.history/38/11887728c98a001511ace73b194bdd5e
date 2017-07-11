@@ -1,0 +1,3 @@
+<%@ taglib uri="/struts-tags" prefix="s" %>
+Successfully Deleted Table,
+<s:include value="index.jsp"></s:include>

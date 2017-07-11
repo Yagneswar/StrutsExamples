@@ -1,0 +1,36 @@
+package com.tqmcs;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+public class SelectDao 
+{
+	public static int add(RegisterAction a)
+	{
+		int stat=0;
+		try
+		{
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+			Connection con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","sinu","sinu");
+			PreparedStatement p=con.prepareStatement("delete emp3 where ename=? ");
+			
+			
+			p.setString(1, r.getEname());
+			p.setString(2, r.getPassword());
+			p.setString(3, r.getEmail());
+			s.setString(4, r.getGender());
+			p.setString(5, r.getCountry());
+			
+			
+			
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+		return stat;
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.tqmcs;
+
+public class SelectDao 
+{
+	public static int add(RegisterAction a)
+	{
+		int stat=0;
+		try
+		{
+			
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+		return stat;
+	}
+
+}
